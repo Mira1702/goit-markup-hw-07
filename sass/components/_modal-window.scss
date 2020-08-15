@@ -73,6 +73,16 @@
  transition-property: border;
  transition-duration: 250ms;
  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus {
+    outline: none;
+    border: 1px solid $accent-colour;
+    fill: $accent-colour;
+   }
+  &:not(:placeholder-shown) {
+    border: 1px solid $accent-colour;
+    fill: $accent-colour;
+  } 
 }
 
 .modal-form-message {    
@@ -88,6 +98,17 @@
  transition-property: border;
  transition-duration: 250ms;
  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus {
+    outline: none;
+    border: 1px solid $accent-colour;
+    fill: $accent-colour;
+   }
+
+  &:not(:placeholder-shown) {
+    border: 1px solid $accent-colour;
+    fill: $accent-colour;
+  } 
 }
 
 .modal-form-input:focus+.modal-form-label,
@@ -96,19 +117,6 @@
  color: $accent-colour;
  font-size: 12px;
  line-height: 0.86;
-}
-
-.modal-form-input:focus,
-.modal-form-message:focus {
- outline: none;
-}
-
-.modal-form-input:focus,
-.modal-form-message:focus,
-.modal-form-input:not(:placeholder-shown),
-.modal-form-message:not(:placeholder-shown) {
- border: 1px solid $accent-colour;
- fill: $accent-colour;
 }
 
 .modal-form-input:focus+.modal-form-label-svg {
@@ -229,15 +237,19 @@
 }
 
 .modal-close-btn {
- position: absolute;
- top: 8px;
- right: 8px;
- width: 30px;
- height: 30px;
- border-radius: 50%;
- background-color: transparent;
- border: 1px solid rgba(33, 33, 33, 0.2);
- cursor: pointer;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  cursor: pointer;
+
+  &:hover {
+    fill: $accent-colour;
+   }
 }
 
 .modal-close-btn-svg {
@@ -248,9 +260,7 @@
  margin-right: auto;
 }
 
-.modal-close-btn:hover {
- fill: $accent-colour;
-}
+
 
 .is-hidden {
  opacity: 0;

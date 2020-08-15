@@ -21,13 +21,7 @@
     color: #000000;
     margin-right: 85px;
 }
-    
-.link{
-    text-decoration: none;
-    list-style-type: none;
-    font-style: normal;
-}
-    
+     
 .navigation-list {
     display: flex;
 }
@@ -52,6 +46,11 @@
     padding-top: 32px;   
     padding-bottom: 32px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: $accent-colour;
+    }    
 }
         
 .link-studio::after {
@@ -61,15 +60,14 @@
     height: 4px;
     background-color: $accent-colour;
     border-radius: 2px;
-    display: block;
-    vertical-align: bottom;
+    display: block;    
     margin-left: auto;
     margin-right: auto;
     margin-top: 28px;
 }
     
-.active-list-item{
-    color: $accent-colour;
+.active-list-item {
+    color: #2196F3;
 }
     
 .address-link {
@@ -77,46 +75,45 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
     
-.navigation-mail,
+.navigation-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    color: #757575;   
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    &:hover,
+    &:focus {
+        color: $accent-colour;
+        .address-link-svg {
+            fill: $accent-colour;
+            color: $accent-colour;
+        }    
+    }      
+}
+
 .navigation-tel{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
     letter-spacing: 0.02em;
-    color: #757575;    
-}
+    color: #757575;   
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
-.navigation-link:hover,
-.navigation-mail:hover,
-.navigation-tel:hover,
-.navigation-link:focus,
-.navigation-mail:focus,
-.navigation-tel:focus {
-    color: $accent-colour;
+    &:hover,
+    &:focus {
+        color: $accent-colour;
+        .address-link-svg {
+            fill: $accent-colour;
+            color: $accent-colour;
+           }
+    }
+              
 }
-    
+        
 .navigation-mail {
     margin-right: 30px;
-}
-    
-.navigation-mail:hover .address-link-svg {
-    fill: $accent-colour;
-    color: $accent-colour;
-}
-    
-.navigation-mail:focus .address-link-svg {
-    fill: $accent-colour;
-    color: $accent-colour;
-}
-    
-.navigation-tel:hover .address-link-svg {
-    fill: $accent-colour;
-    color: $accent-colour;
-}
-    
-.navigation-tel:focus .address-link-svg {
-    fill: $accent-colour;
-    color: $accent-colour;
 }
     
 .address-link-svg {
@@ -134,3 +131,4 @@
 .web{
  color: $accent-colour;
 }
+

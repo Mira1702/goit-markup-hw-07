@@ -26,23 +26,18 @@
  margin-bottom: 50px;
 }
 
-.link{
- text-decoration: none;
- list-style-type: none;
- font-style: normal;
-}
-
 .what-doing-list {
  display: flex;
  height: 294px;
 }
 
-.doing-list:not(:last-child) {
- margin-right: 30px;
-}
 
 .doing-list {    
  position: relative;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+   }
 }
 
 .doing-list-img {
