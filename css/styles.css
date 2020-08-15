@@ -1,11 +1,11 @@
-:root {
+/*:root {
     --main-font: "Roboto", sans-serif;
     --secondary-font: "Raleway", sans-serif;
     --accent-colour: #2196F3; 
     --footer-them-color: #2F303A; 
     --footer-text-color: #ffffff;      
-}
-html {
+}*/
+/*html {
 box-sizing: border-box;
 }
 *,
@@ -21,7 +21,7 @@ font-family: var(--main-font);
 font-size: 14px;
 color: #212121;
 background-color: #FFFFFF;
-}
+}*/
 
 /*.header-link{
 font-family: var(--secondary-font);
@@ -1139,7 +1139,7 @@ transform: translateY(100%);
 
 
 /*HEADER*/
-.container {
+/*.container {
 width: 1200px;
 padding-left: 15px;
 padding-right: 15px;
@@ -1277,7 +1277,7 @@ justify-content: space-between;
 
 /*ЗАГОЛОВОК*/
 
-.section-title {
+/*.section-title {
 max-width: 1600px;
 height: 600px;
 margin-left: auto;
@@ -1327,7 +1327,7 @@ cursor: pointer;
 
 /*ОСОБЕННОСТИ*/
 
-.section-feature {
+/*.section-feature {
 padding-top: 94px;
 padding-bottom: 47px;
 }
@@ -1407,7 +1407,7 @@ color: #757575;
 
 /*ЧЕМ МЫ ЗАНИМАЕМСЯ*/
 
-.section-what-doing {
+/*.section-what-doing {
 padding-top: 47px;
 padding-bottom: 94px;
 }
@@ -1478,7 +1478,7 @@ padding: 27px 27px;
 
 /*НАША КОМАНДА*/
 
-.section-theme {
+/*.section-theme {
 background: #F5F4FA;
 }
 
@@ -1608,7 +1608,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 /*ПОСТОЯННЫЕ КЛИЕНТЫ*/
 
-.section-client {
+/*.section-client {
 padding-top: 94px;
 padding-bottom: 94px;
 }
@@ -1678,7 +1678,7 @@ display: block;
 
 /*ПОДВАЛ*/
 
-.footer-them-color {
+/*.footer-them-color {
 background-color: var(--footer-them-color);
 }
 
@@ -1916,7 +1916,7 @@ margin-right: auto;
 
 
 /*Modal-window*/
-.backdorp {
+/*.backdorp {
 position: fixed;
 left: 0;
 top: 0;
@@ -2163,7 +2163,7 @@ background-repeat: no-repeat;
 background-position: center;*/
 }
 
-.modal-close-btn-svg {
+/*.modal-close-btn-svg {
 width: 18px;
 height: 18px;
 display: block;
@@ -2180,7 +2180,7 @@ fill: #2196F3;
 text-decoration: underline;
 }*/
 
-.is-hidden {
+/*.is-hidden {
 opacity: 0;
 visibility: hidden;
 pointer-events: none;

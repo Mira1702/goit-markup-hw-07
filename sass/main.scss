@@ -1,3 +1,6 @@
+@import "./utils/var";
+@import "./base/base";
+@import "./components/modal-window";
 @import "./layout/header";
 @import "./layout/heading";
 @import "./layout/feature";
@@ -5,4 +8,4 @@
 @import "./layout/team";
 @import "./layout/clients";
 @import "./layout/footer";
-@import "./components/modal-window";
+@import "./layout/portfolio";
