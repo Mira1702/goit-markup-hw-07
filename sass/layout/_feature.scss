@@ -12,7 +12,7 @@
 }
 
 .head {
- font-family: var(--main-font);
+ font-family: $main-font;
  font-style: normal;
  font-weight: bold;
  font-size: 36px;
@@ -55,7 +55,7 @@
 }
 
 .subheading {
- font-family: var(--main-font);
+ font-family: $main-font;
  font-style: normal;
  font-weight: bold;
  font-size: 14px;
@@ -67,7 +67,7 @@
 }
 
 .text {
- font-family: var(--main-font);
+ font-family: $main-font;
  font-style: normal;
  font-weight: normal;
  font-size: 14px;

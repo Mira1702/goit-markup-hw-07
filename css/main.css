@@ -1,12 +1,4 @@
 @charset "UTF-8";
-:root {
-  --main-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif;
-  --accent-colour: #2196F3;
-  --footer-them-color: #2F303A;
-  --footer-text-color: #ffffff;
-}
-
 html {
   box-sizing: border-box;
 }
@@ -20,7 +12,7 @@ html {
 }
 
 body {
-  font-family: var(--main-font);
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: #212121;
   background-color: #FFFFFF;
@@ -50,7 +42,7 @@ body {
 }
 
 .modal-form-title {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -71,7 +63,7 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -121,7 +113,7 @@ body {
 .modal-form-input:focus + .modal-form-label,
 .modal-form-input:not(:placeholder-shown) + .modal-form-label {
   transform: translate(-25px, -38px);
-  color: var(--accent-colour);
+  color: #2196F3;
   font-size: 12px;
   line-height: 0.86;
 }
@@ -140,12 +132,12 @@ body {
 }
 
 .modal-form-input:focus + .modal-form-label-svg {
-  fill: var(--accent-colour);
-  color: var(--accent-colour);
+  fill: #2196F3;
+  color: #2196F3;
 }
 
 .modal-form-message-title {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -163,7 +155,7 @@ body {
 }
 
 .modal-form-message:focus::placeholder {
-  color: var(--accent-colour);
+  color: #2196F3;
 }
 
 .modal-form-option-label {
@@ -181,7 +173,7 @@ body {
 }
 
 .modal-form-option-span a {
-  color: var(--accent-colour);
+  color: #2196F3;
 }
 
 .modal-form-checkbox {
@@ -189,7 +181,7 @@ body {
 }
 
 .modal-form-btn {
-  font-family: var(--main-font);
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -302,7 +294,7 @@ body {
 }
 
 .header-link {
-  font-family: var(--secondary-font);
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 27px;
@@ -363,6 +355,7 @@ body {
 
 .address-link {
   display: flex;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-mail,
@@ -388,23 +381,23 @@ body {
 }
 
 .navigation-mail:hover .address-link-svg {
-  fill: var(--accent-colour);
-  color: var(--accent-colour);
+  fill: #2196F3;
+  color: #2196F3;
 }
 
 .navigation-mail:focus .address-link-svg {
-  fill: var(--accent-colour);
-  color: var(--accent-colour);
+  fill: #2196F3;
+  color: #2196F3;
 }
 
 .navigation-tel:hover .address-link-svg {
-  fill: var(--accent-colour);
-  color: var(--accent-colour);
+  fill: #2196F3;
+  color: #2196F3;
 }
 
 .navigation-tel:focus .address-link-svg {
-  fill: var(--accent-colour);
-  color: var(--accent-colour);
+  fill: #2196F3;
+  color: #2196F3;
 }
 
 .address-link-svg {
@@ -432,7 +425,7 @@ body {
 }
 
 .heading {
-  font-family: var(--main-font);
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -447,7 +440,7 @@ body {
 }
 
 .modal-btn {
-  font-family: var(--main-font);
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -484,7 +477,7 @@ body {
 }
 
 .head {
-  font-family: var(--main-font);
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -527,7 +520,7 @@ body {
 }
 
 .subheading {
-  font-family: var(--main-font);
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -539,7 +532,7 @@ body {
 }
 
 .text {
-  font-family: var(--main-font);
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -562,7 +555,7 @@ body {
 }
 
 .head {
-  font-family: var(--main-font);
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -600,7 +593,7 @@ body {
 }
 
 .desc {
-  font-family: var(--main-font);
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -635,7 +628,7 @@ body {
 }
 
 .head {
-  font-family: var(--main-font);
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -678,7 +671,7 @@ body {
 }
 
 .team-names {
-  font-family: var(--main-font);
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -690,7 +683,7 @@ body {
 }
 
 .team-names-prof {
-  font-family: var(--main-font);
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -711,7 +704,7 @@ body {
 
 .social-link:hover,
 .social-link:focus {
-  background-color: var(--accent-colour);
+  background-color: #2196F3;
   color: #FFFFFF;
 }
 
@@ -758,7 +751,7 @@ body {
 }
 
 .head {
-  font-family: var(--main-font);
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -813,7 +806,7 @@ body {
 }
 
 .footer-them-color {
-  background-color: var(--footer-them-color);
+  background-color: #2F303A;
 }
 
 .section-footer {
@@ -842,7 +835,7 @@ body {
 }
 
 .footer-text {
-  color: var(--footer-text-color);
+  color: #ffffff;
 }
 
 .footer-text-item {
@@ -863,7 +856,7 @@ body {
 }
 
 .header-link {
-  font-family: var(--secondary-font);
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 27px;
@@ -941,28 +934,28 @@ body {
 }
 
 .navigation-mail:hover .address-link-svg {
-  fill: var(--accent-colour);
-  color: var(--accent-colour);
+  fill: #2196F3;
+  color: #2196F3;
 }
 
 .navigation-mail:focus .address-link-svg {
-  fill: var(--accent-colour);
-  color: var(--accent-colour);
+  fill: #2196F3;
+  color: #2196F3;
 }
 
 .navigation-tel:hover .address-link-svg {
-  fill: var(--accent-colour);
-  color: var(--accent-colour);
+  fill: #2196F3;
+  color: #2196F3;
 }
 
 .navigation-tel:focus .address-link-svg {
-  fill: var(--accent-colour);
-  color: var(--accent-colour);
+  fill: #2196F3;
+  color: #2196F3;
 }
 
 .social-link-footer:hover,
 .social-link-footer:focus {
-  background-color: var(--accent-colour);
+  background-color: #2196F3;
   color: #FFFFFF;
 }
 
@@ -974,6 +967,8 @@ body {
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1) F;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link-footer:hover .social-link-svg {
@@ -1021,7 +1016,7 @@ body {
 }
 
 .button {
-  font-family: var(--main-font);
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -1043,13 +1038,31 @@ body {
   margin-right: auto;
 }
 
+.link-portfolio::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: #2196F3;
+  border-radius: 2px;
+  display: block;
+  vertical-align: bottom;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 28px;
+}
+
+.active-list-item {
+  color: #2196F3;
+}
+
 .section-portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .portfolio-button {
-  font-family: var(--main-font);
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -1066,6 +1079,8 @@ body {
   padding-right: 22px;
   border: 0;
   cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-button:hover,
@@ -1075,7 +1090,7 @@ body {
 }
 
 .portfolio-title {
-  font-family: var(--main-font);
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -1087,7 +1102,7 @@ body {
 }
 
 .portfolio-subtitle {
-  font-family: var(--main-font);
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -1098,7 +1113,7 @@ body {
 }
 
 .portfolio-subtitle-hidden {
-  font-family: var(--main-font);
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 19px;

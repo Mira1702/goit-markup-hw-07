@@ -12,7 +12,7 @@
 }
 
 .head {
- font-family: var(--main-font);
+ font-family: $main-font;
  font-style: normal;
  font-weight: bold;
  font-size: 36px;
@@ -50,7 +50,7 @@
 }
 
 .desc {
- font-family: var(--main-font);
+ font-family: $main-font;
  font-style: normal;
  font-weight: bold;
  font-size: 14px;
