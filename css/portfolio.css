@@ -440,18 +440,14 @@ body {
   color: #FFFFFF;
 }
 
+.social-link:hover .social-link-svg, .social-link:focus .social-link-svg {
+  fill: #FFFFFF;
+}
+
 .social-link-svg {
   width: 20px;
   height: 20px;
   fill: #AFB1B8;
-}
-
-.social-link-svg:hover .social-link-svg {
-  fill: #FFFFFF;
-}
-
-.social-link-svg:focus .social-link-svg {
-  fill: #FFFFFF;
 }
 
 .section-client {

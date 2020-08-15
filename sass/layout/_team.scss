@@ -98,22 +98,16 @@
   &:hover,
   &:focus {
     background-color: $accent-colour;
-    color: #FFFFFF;   
+    color: #FFFFFF;    
+    .social-link-svg {
+      fill: #FFFFFF;
+    }
   }  
 }
 
 .social-link-svg {
  width: 20px;
  height: 20px;
- fill: #AFB1B8;
-
-  &:hover 
-  .social-link-svg {
-    fill: #FFFFFF;
-   }
-  &:focus 
-  .social-link-svg {
-    fill: #FFFFFF;
-   }
+ fill: #AFB1B8;  
 }
 
